@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+html {
+  background-color: #000000;
+}
+
+html,
+body {
+  scrollbar-color: rgba(255,255,255, 0.6) rgba(255,255,255, 0.2);
+  scrollbar-width: thin;
+  font-family: "Kosugi Maru", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e26682;
+}
+
+.fredoka {
+    font-family: "Fredoka One", sans-serif;
+}
+
+.fullscreen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.background2 {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://wallpapercave.com/wp/wp7657146.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  /* filter: blur(8px); */
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 256px;
+    height: 256px;
+    margin: 32px auto 32px auto;
+    border-radius: 50%;
+}
+
+.shadow {
+    filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.3));
+}
+
+.text {
+    margin: 0 24px 0 24px;
+    padding: 12px;
+    background-color: rgba(242, 101, 177, 0.5);
+    border-radius: 8px;
+}
+
+.title {
+    color: #DD5B5B !important;
+}
+
+.subtitle {
+    text-align: right;
+}
+
+.desc {
+    color: #fff;
+}
+
+.contact {
+  color: 0;
+}
