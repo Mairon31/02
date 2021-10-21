@@ -9,20 +9,32 @@
     <meta property="og:description" content="Your favorite waifu">
     <meta property="og:image" content="https://pbs.twimg.com/media/Dp2llRmX0AAwx4z.jpg">
     <meta property="og:color" content="#BCC8FF">
-    <meta property="og:site_name" content="02">
+    <meta property="og:site_name" content="Zero Two">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#FFB6C1">
     <link rel="icon" type="image/png" href="https://pbs.twimg.com/media/Dp2llRmX0AAwx4z.jpg" />
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
-    <title>02</title>
+    <title>Zero Two</title>
+    	<script  type="text/javascript">
+		function changeBG(imgNumber) {
+			var zt = [
+                          "https://wallpapercave.com/wp/wp6786717.jpg",
+                          "https://wallpapercave.com/wp/wp2475724.png",
+                          "https://wallpapercave.com/wp/wp5341685.jpg",
+                          "https://wallpapercave.com/wp/wp6786851.jpg",
+                          "https://wallpapercave.com/wp/wp5952301.png"
+                          ]; 
+			var imgShow = document.body.style.backgroundImage;
+			var imgNumber = Math.floor(Math.random() * zt.length);
+			document.body.style.backgroundImage = 'url('+zt[imgNumber]+')';
+		}
+		window.onload=changeBG;
+	</script>
 </head>
-<body>
-				<div class="fullscreen">
-        <div class="background2"></div>
+<body class="fullscreen background2">
         <div class="content">
-        		<!-- nothing :)  -->
-        </div>
+      <!-- nothing :) | Made with ♡ by Irtradil  -->
     </div>
 </body>
 </html>
